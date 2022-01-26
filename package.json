@@ -9,14 +9,14 @@
   "scripts": {
     "start": "npm-run-all --parallel  start:*",
     "instal": "npm-run-all --serial instal:*",
-    "start:host-umi": "cd packages/HostUmi && yarn start",
-    "start:host-webpack":"cd packages/HostWebpack && yarn start",
-    "start:remote-umi": "cd packages/RemoteUmi && yarn start",
-    "start:remote-webpack": "cd packages/RemoteWebpack && yarn start",
-    "instal:host-umi": "cd packages/HostUmi && yarn",
-    "instal:host-webpack":"cd packages/HostWebpack && yarn",
-    "instal:remote-umi": "cd packages/RemoteUmi && yarn",
-    "instal:remote-webpack": "cd packages/RemoteWebpack && yarn"
+    "start:host-umi": "cd packages/HostUmi && npm start",
+    "start:host-webpack":"cd packages/HostWebpack && npm start",
+    "start:remote-umi": "cd packages/RemoteUmi && npm start",
+    "start:remote-webpack": "cd packages/RemoteWebpack && npm start",
+    "instal:host-umi": "cd packages/HostUmi && npm install",
+    "instal:host-webpack":"cd packages/HostWebpack && npm install",
+    "instal:remote-umi": "cd packages/RemoteUmi && npm install",
+    "instal:remote-webpack": "cd packages/RemoteWebpack && npm install"
   },
   "repository": {
     "type": "git",

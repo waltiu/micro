@@ -24,7 +24,6 @@ export default defineConfig({
   chainWebpack:(memo, { env, webpack, createCSSRule })=>{
     const { ModuleFederationPlugin } = webpack.container;
     memo.output.publicPath('auto');
-    // https://github.com/umijs/qiankun/issues/1394
     memo.plugin('ModuleFederation').use(ModuleFederationPlugin,[
       {
         name: pkg.name,
