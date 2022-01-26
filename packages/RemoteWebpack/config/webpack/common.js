@@ -69,20 +69,7 @@ module.exports = {
     ]
   },
   plugins: [
-    // new ModuleFederationPlugin(
-    //   {
-    //     name: "webpack5",
-    //     filename: 'remoteEntry.js',
-    //     library: { type: "umd", name: "webpack5" },
-    //     remotes: {
-    //       '#util': "util@https://localhost:3030/remoteEntry.js",
-    //     },
-    //     exposes: {
-    //       "./test": './src/modules/components/TodoList/index.js',
-    //       "./cli": './src/Home',
-    //     },
-    //     shared: { react: { eager: true }, 'react-dom': { eager: true } },
-    //   }),
+
     new webpack.ProgressPlugin(),
     new HtmlWebpackPlugin({
       template: `${paths.public}/index.html`,
