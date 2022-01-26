@@ -1,0 +1,20 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1,
+    "workspacePrefix": "D:\\micro"
+  },
+  "1 error pnpm": {
+    "errno": 1,
+    "code": "ELIFECYCLE",
+    "pkgid": "remote_webpack@1.0.0",
+    "stage": "start",
+    "script": "webpack serve -c config/webpack/dev.js",
+    "pkgname": "remote_webpack",
+    "err": {
+      "name": "pnpm",
+      "message": "remote_webpack@1.0.0 start: `webpack serve -c config/webpack/dev.js`\nExit status 1",
+      "code": "ELIFECYCLE",
+      "stack": "pnpm: remote_webpack@1.0.0 start: `webpack serve -c config/webpack/dev.js`\nExit status 1\n    at EventEmitter.<anonymous> (C:\\Users\\jinzenan3\\AppData\\Roaming\\nvm\\v16.11.1\\node_modules\\pnpm\\dist\\pnpm.cjs:103408:20)\n    at EventEmitter.emit (node:events:390:28)\n    at ChildProcess.<anonymous> (C:\\Users\\jinzenan3\\AppData\\Roaming\\nvm\\v16.11.1\\node_modules\\pnpm\\dist\\pnpm.cjs:91337:18)\n    at ChildProcess.emit (node:events:390:28)\n    at maybeClose (node:internal/child_process:1064:16)\n    at Process.ChildProcess._handle.onexit (node:internal/child_process:301:5)"
+    }
+  }
+}
