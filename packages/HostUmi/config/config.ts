@@ -74,6 +74,7 @@ export default defineConfig({
   theme: {
     'primary-color': defaultSettings.primaryColor,
     'root-entry-name': 'default',
+    'primary-color-hover':defaultSettings.primaryColor
   },
   // esbuild is father build tools
   // https://umijs.org/plugins/plugin-esbuild
